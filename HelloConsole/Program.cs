@@ -1,10 +1,9 @@
 ﻿Console.WriteLine("2 Hello, World!");
 int[] array1 = new int[] { 1, 8, 3, 2, 6 };
-int sizze = 5;
 int CurrentIndex  = 0;
 int MaxNumberIndex  = 0;
 int MaxNumber  = array1[0];
-while(CurrentIndex<sizze)
+while( CurrentIndex < array1.Lenght )
 {
     if(array1[CurrentIndex]>MaxNumber) 
         {
