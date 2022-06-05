@@ -8,7 +8,7 @@ while(CurrentIndex<sizze)
 {
     if(array1[CurrentIndex]>MaxNumber) 
         {
-            MaxNumber = array1[CurrentIndex];
+        MaxNumber = array1[CurrentIndex];
         MaxNumberIndex = CurrentIndex;
         }
     CurrentIndex = CurrentIndex + 1;
